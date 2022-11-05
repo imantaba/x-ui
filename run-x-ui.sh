@@ -1,7 +1,7 @@
 #!/bin/bash
 
-domain = YOUR_DOMAIN
-email = YOUR_MAIL
+domain="YOUR_DOMAIN"
+email="YOUR_MAIL"
 # please run as root
 apt update && apt upgrade -y
 apt install curl socat -y
