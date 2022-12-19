@@ -19,7 +19,7 @@ xray panel that supports multi-protocol and multi-user
 
 # installation
 
-Set your prixy url and email in the 'run-x-ui.sh' script , make it executeable and run it.
+Set your proxy url and email in the 'run-x-ui.sh' script , make it executeable and run it.
 Note: run it as root user
 
 ```
