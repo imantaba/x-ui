@@ -25,6 +25,8 @@ Set your proxy url and email in the 'run-x-ui.sh' script , make it executeable a
 
 ```
 sudo su
+wget https://raw.githubusercontent.com/imantaba/x-ui/main/run-x-ui.sh
+vim run-x-ui.sh
 chmod +x run-x-ui.sh
 ./run-x-ui.sh
 ```
