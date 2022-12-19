@@ -2,9 +2,9 @@
 
 xray panel that supports multi-protocol and multi-user
 
-# 功能介绍
 
 # Features
+
 - System status monitoring
 - Support multi-user and multi-protocol, web page visualization operation
 - Supported protocols: vmess, vless, trojan, shadowsocks, dokodemo-door, socks, http
@@ -27,13 +27,10 @@ sudo su
 chmod +x run-x-ui.sh
 ./run-x-ui.sh
 ```
+## Manual installation & upgrade
 
-## 手动安装&升级
-
-1. 首先从 https://github.com/vaxilu/x-ui/releases 下载最新的压缩包，一般选择 `amd64`架构
-2. 然后将这个压缩包上传到服务器的 `/root/`目录下，并使用 `root`用户登录服务器
-
-> 如果你的服务器 cpu 架构不是 `amd64`，自行将命令中的 `amd64`替换为其他架构
+1. First download the latest compressed package from https://github.com/vaxilu/x-ui/releases, generally choose `amd64` architecture
+2. Then upload the compressed package to the `/root/` directory of the server, and use the `root` user to log in to the server
 
 ```
 cd /root/
