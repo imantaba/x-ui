@@ -1,23 +1,31 @@
 # x-ui
 
-支持多协议多用户的 xray 面板
+xray panel that supports multi-protocol and multi-user
 
 # 功能介绍
 
-- 系统状态监控
-- 支持多用户多协议，网页可视化操作
-- 支持的协议：vmess、vless、trojan、shadowsocks、dokodemo-door、socks、http
-- 支持配置更多传输配置
-- 流量统计，限制流量，限制到期时间
-- 可自定义 xray 配置模板
-- 支持 https 访问面板（自备域名 + ssl 证书）
-- 支持一键SSL证书申请且自动续签
-- 更多高级配置项，详见面板
+# Features
+- System status monitoring
+- Support multi-user and multi-protocol, web page visualization operation
+- Supported protocols: vmess, vless, trojan, shadowsocks, dokodemo-door, socks, http
+- Support to configure more transport configurations
+- Traffic statistics, limit traffic, limit expiration time
+- Customizable xray configuration templates
+- Support https access panel (self-provided domain name + ssl certificate)
+- Support one-click SSL certificate application and automatic renewal
+- For more advanced configuration items, see the panel for details
 
-# 安装&升级
+# Install & Upgrade
+
+# installation
+
+Set your prixy url and email in the 'run-x-ui.sh' script , make it executeable and run it.
+Note: run it as root user
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+sudo su
+chmod +x run-x-ui.sh
+./run-x-ui.sh
 ```
 
 ## 手动安装&升级
